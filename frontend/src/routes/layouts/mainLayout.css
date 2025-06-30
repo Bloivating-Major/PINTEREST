@@ -1,0 +1,13 @@
+.app {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.content {
+  flex: 1;
+  margin-right: 16px;
+}
+
+
