@@ -1,27 +1,27 @@
 import "./leftBar.css";
-
+import CustomImage from "../image/custom_image";
 const LeftBar = () => {
   return (
     <main className="leftBar">
       <section className="menuIcons">
         <a href="/" className="menuIcon">
-          <img src="/general/logo.png" alt="" className="logo"/>
+          <CustomImage path="/general/logo.png" alt="" className="logo"/>
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/home.svg" alt="" />
+          <CustomImage path="/general/home.svg" alt="" className="menuIcon" />
         </a>
         <a href="/create" className="menuIcon">
-          <img src="/general/create.svg" alt="" />
+          <CustomImage path="/general/create.svg" alt="" className="menuIcon" />
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/updates.svg" alt="" />
+          <CustomImage path="/general/updates.svg" alt="" className="menuIcon" />
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/messages.svg" alt="" />
+          <CustomImage path="/general/messages.svg" alt="" className="menuIcon" />
         </a>
       </section>
       <a href="/" className="menuIcon">
-        <img src="/general/settings.svg" alt="" />
+        <CustomImage path="/general/settings.svg" alt="" className="menuIcon" />
       </a>
     </main>
   );

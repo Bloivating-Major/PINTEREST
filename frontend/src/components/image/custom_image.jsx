@@ -1,11 +1,10 @@
 import { Image as IKImage } from '@imagekit/react';
 
-const Image = ({ path, src, alt, className, w, h }) => {
+const CustomImage = ({ path, alt, className, w , h }) => {
   return (
     <IKImage
       urlEndpoint={import.meta.env.VITE_URL_IK_ENDPOINT}
-      path={path}
-      src={src}
+      src={path}
       transformation={[
         {
           height: h,
@@ -19,4 +18,4 @@ const Image = ({ path, src, alt, className, w, h }) => {
   );
 };
 
-export default Image;
+export default CustomImage;

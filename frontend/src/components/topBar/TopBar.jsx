@@ -1,12 +1,13 @@
 import UserButton from '../userButton/UserButton';
 import './topBar.css';
+import CustomImage from "../image/custom_image";
 
 const TopBar = () => {
   return (
     <main className='topBar'>
       {/* SEARCH */}
       <section className='search'>
-        <img src="/general/search.svg" alt="" />
+        <CustomImage path="/general/search.svg" alt="" />
         <input type="text" placeholder='Search' />
       </section>
 
